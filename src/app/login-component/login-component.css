@@ -1,0 +1,168 @@
+.login_page
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 1973px;
+    height: 1080px;
+    opacity: 1;
+    border-color: rgb(157, 157, 157, 100);
+    border-radius: 1px;
+}
+
+.phr
+{
+    position: absolute;
+    left: 80px;
+    top: 203px;
+
+    width: 473px;
+    height: 236px;
+    
+    /* Rotation */
+    transform: rotate(0deg);
+    
+    /* Apparence */
+    opacity: 1;
+    border-radius: 0px;
+    
+    display: block;
+    object-fit: cover;
+}
+
+.Rectangle1
+{
+    position: absolute;
+    left: 648px;
+    top: 0px;
+    transform: rotate(0deg);
+    width: 1325px;
+    height: 1080px;
+    opacity: 0.25;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.Rectangle2
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+    width: 1920px;
+    height: 1080px;
+    opacity: 1;
+    background-color: rgb(91, 134, 229, 51);
+}
+
+.logo
+{
+    position: absolute;
+    left: 165px;
+    top: 589px;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: row;
+    width: 303px;
+    height: 316.23px;
+    gap: -274px;
+    border-radius: 0 120px 0 120px;
+}
+
+.login_content
+{
+    position: absolute;
+    left: 1023px;
+    top: 473px;
+    display: flex;
+    flex-direction: row;
+    width: 575px;
+    height: 286px;
+    opacity: 1;
+    border-radius: 8px;
+    /* Épaisseur de la bordure */
+    border: 1px solid rgb(157, 157, 157, 100); 
+}
+
+.sgin
+{
+    position: absolute;
+    left: 1023px;
+    top: 321px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 123px;
+    height: 40px;
+    opacity: 1;
+    font-family: 'Telegraf', sans-serif;
+    font-weight: 800; /* UltraBold/ExtraBold */
+    line-height: 40px;
+    letter-spacing: 0.8em;
+    text-align: left;
+    vertical-align: top;
+    background-color: #000000;
+}
+
+.lgn
+{
+    position: absolute;
+    left: 1286px;
+    top: 650px;
+    flex: 1;
+    width: 49px;
+    height: 40px;
+    opacity: 1;
+    font-family: 'Telegraf', sans-serif;
+    font-weight: 800; /* UltraBold/ExtraBold */
+    line-height: 40px;
+    letter-spacing: 0.8em;
+    text-align: left;
+    vertical-align: top;
+    background-color: #FFFFFF;
+}
+
+.Rectangle7
+{
+    position: absolute;
+    width: 1023px;
+    top: 640px;
+    width: 575px;
+    height: 60px;
+    opacity: 1;
+    gap: 8px;
+}
+
+input
+{
+    position: absolute;
+    left: 1023px;
+    top: 549px;
+    display: flex;
+    flex-direction: row;
+    width: 575px;
+    height: 47px;
+    letter-spacing: 7em;
+    opacity: 1;
+    background-color: rgb(157, 157, 157, 100);
+    border-color: rgb(157, 157, 157, 100);
+}
+
+.txt2
+{
+    position: absolute;
+    left: 1179px;
+    height: 719px;
+    flex: 1;
+    width: 318px;
+    height: 40px;
+    opacity: 1;
+    font-family: 'Telegraf', sans-serif;
+    font-weight: 800; /* UltraBold/ExtraBold */
+    line-height: 40px;
+    letter-spacing: 0.8em;
+    text-align: left;
+    vertical-align: top;
+}
