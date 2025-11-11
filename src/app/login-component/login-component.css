@@ -48,10 +48,9 @@
 {
     position: absolute;
     width: 100%;
-    left: 0px;
-    top: 0px;
+    padding: auto;
     transform: rotate(0deg);
-    width: 1920px;
+    max_width: 1920px;
     height: 1080px;
     opacity: 1;
     background-color: rgb(91, 134, 229, 51);
