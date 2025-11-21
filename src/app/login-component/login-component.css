@@ -1,41 +1,66 @@
-.signpage {
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Imprima */
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Reset pour body et html */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(84, 181, 181, 100);
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.signpage{
+    background-color: rgba(84, 181, 181, 1);
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .rectangle1
 {
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 10%;
-    /*height: 982px;*/
+    flex-shrink: 0;
+    /*width: 427px; /* Ajoutez une largeur fixe  */
+    min-width: 427px;
 }
-
 .rectangle2
 {
+    position: relative;
     display: flex;
     flex-direction: column;
-    margin-left: 427px;
-    width: 90%;
-    /*height: 982px;*/
+    width: calc(100% - 427px); /*Prend le reste de l'espace */
+    /*width: 50%;*/
+    height: 100%;
     background-color: #FFFFFF;
-    border-radius: 70px;
+    border-radius: 70px 0 0 70px;
+    flex: 1;
+    overflow: hidden;
 }
 
-.txt1
+.rectangle1-txt
 {
-    /*position: relative;*/
+    position: absolute;
     padding-left: 59px;
     padding-top: 126px;
     width: 368px;
     height: 213px;
     opacity: 1;
+}
 
+
+.txt1
+{
     font-family: 'Imprima', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -47,26 +72,26 @@
 
 .Girlboy
 {
-    position: relative;
-    padding-left: 48px;
-    padding-top: 156px;
+    position: absolute;
+    left: 48px;
+    top: 156px;
     width: 654px;
     height: 763px;
     opacity: 1;
     /* rotation = 3.54 dégre*/
+    transform: rotate(-3.54deg);
+    /* ou cover 
+    object-fit: screen;*/
+    padding-top: 40px;
+    z-index: 2; /* Au-dessus des rectangles */
+    /*mix-blend-mode: multiply;*/
 }
-
-.langue
-{
-    display: flex;
-    flex-direction: column;
-}
-
 .txtEn
 {
     position: absolute;
-    padding-left: 1392px;
-    padding-top: 31px;
+    /*left: 968.5px;*/
+    right: 30px;
+    top: 31px;
     width: 82px;
     height: 19px;
     opacity: 1;
@@ -75,7 +100,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: auto;
-    /*letter-spacing: 0%;*/
+    letter-spacing: 0%;
     text-align: left;
     color: rgb(226, 221, 221, 100);
 }
@@ -83,58 +108,313 @@
 .Polygon
 {
     position: absolute;
-    padding-left: 1489px;
-    padding-top: 31px;
-    /* rotation -177.78 dégre */
+    /*left: 1065.5px;*/
+    right: 5px;
+    top: 31px;
     width: 15.97px;
     height: 12px;
     opacity: 1;
+    /* compte 3 */
 }
-
-.TitleCreate
+.rectangle2-title
 {
     position: absolute;
-    padding-left: 638px;
-    padding-top: 178px;
+    left: 638px;
+    top: 178px;
     width: 283px;
     height: 28px;
     opacity: 1;
-
+}
+.TitleCreate
+{    
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 32px;
     line-height: auto;
     letter-spacing: 0%;
-    text-align: left;
     color: #000000;
 }
 
 .rectangleglob
 {
-    position: absolute;
     display: flex;
-    flex-direction: column;
-    width: 208px;
-    height: 45px;
-    opacity: 1;
-    border-radius: 8px;
-    background-color: #FFFFFF;
-    border-color: rgb(211, 205, 205, 100);
 }
 
 .rectangle3
 {
     position: absolute;
     display: flex;
-    padding-left: 640px;
-    padding-top: 239px;
+    flex-direction: row;
+    /*left: 216.5px;*/
+    left: 640px;
+    top: 296px;
+    width: 208px;
+    height: 45px;
 
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgb(211, 205, 205, 100);
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #FFFFFF;
+    /*margin-right: 44px;*/
 }
-
 .rectangle4
 {
     position: absolute;
     display: flex;
-    padding-left: 891px;
-    padding-top: 239px;
+    flex-direction: row;
+    /*left: 476.5px;*/
+    left: 891px;
+    top: 296px;
+    width: 208px;
+    height: 45px;
+
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 1px rgb(211, 205, 205, 100);
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #FFFFFF;
+}
+
+.logos_gmail
+{
+    width: 26px;
+    height: 23px;
+    overflow: hidden;
+}
+.logos_facebook
+{
+    width: 30px;
+    height: 27px;
+    overflow: hidden;
+}
+.signGmail
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(197, 189, 189, 1);
+}
+
+.signefb
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(197, 189, 189, 1);
+    padding-left: 15px;
+}
+
+.or
+{
+    position: absolute;
+    /*left: 450px;*/
+    left: 853px;
+    top: 371px;
+    width: 33px;
+    height: 17px;
+    opacity: 1;
+
+    font-family:'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(197, 189, 189, 1);
+}
+input
+{
+    transform: rotate(0.01deg);
+    width: 644.23px;
+    height: 30.15px;
+    opacity: 1;
+    border: none;
+    border-bottom: 1px solid rgba(214, 202, 202, 0.59);
+    /*left: 218.5px;*/
+    left: 642px;
+    position: absolute;
+}
+
+input::placeholder
+{
+    font-family:'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(197, 189, 189, 1);
+}
+
+.input-name
+{
+    position: absolute;
+    top: 389.35px;
+}
+
+.input-email
+{
+    position: absolute;
+    top: 506.5px;
+}
+
+.input-psswrd
+{
+    position: absolute;
+    top: 646px;
+}
+
+button
+{
+    position: absolute;
+    /*left: 354px;*/
+    left: 777.5px;
+    top: 890.5px;
+    width: 405px;
+    height: 45px;
+    opacity: 1;
+    background-color: rgba(136, 192, 192, 1);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+
+    font-family:'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(248, 240, 240, 0.8);
+}
+
+.txt2
+{
+    position: absolute;
+    /*left: 354.5px;*/
+    left: 778px;
+    top: 946px;
+
+    font-family:'Imprima', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.txt2 a
+{
+    text-decoration: none;
+    color: rgb(66, 133, 244, 100);
+}
+
+/* Media queries pour responsive */
+@media (max-width: 1100px) {
+    .signpage {
+        flex-direction: column;
+    }
+    
+    .rectangle1 {
+        width: 100%;
+        height: 25%;
+    }
+    
+    .rectangle2 {
+        width: 100%;
+        /*height: 100%;*/
+        border-radius: 40px 40px 0 0;
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    
+    .Girlboy {
+        max-width: 300px;
+        left: 35%;
+        transform: translateX(-50%);
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    .rectangle2-title
+    {
+        position: static;
+        padding-top: 89px;
+        padding-left: 250px;
+        font-size: 26px;
+        width: 100%;
+    }
+        /* Les blocs Gmail/Facebook */
+    .rectangle3,
+    .rectangle4 {
+        position: static;
+        width: 90%;
+        margin: 50px 100px;
+    }
+    
+    
+    .or {
+        position: static;
+        text-align: center;
+        width: 100%;
+        top: 186px;
+    }
+
+    input {
+        position: static;                  
+        width: 90%;                        
+        margin: 15px auto;         
+        display: block;
+        font-size: 18px;
+    }
+
+    .input-name,
+    .input-email,
+    .input-psswrd {
+        position: static;         
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    /* Bouton */
+    button {
+        position: static; 
+        width: 90%;
+        height: 45px;
+        margin: 25px auto;
+        display: block;
+    }
+
+    /* Texte sous le bouton */
+    .txt2 {
+        position: static;
+        width: 90%;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 740px) {
+    .signpage {
+        flex-direction: column;
+    }
+    
+    .rectangle1 {
+        width: 60%;
+        height: 3%;
+    }
+    .rectangle2 {
+        width: 100%;
+    }
+    .rectangle2-title {
+        width: 75%;
+        padding-top: 40px;
+    }
 }

@@ -1,32 +1,43 @@
 <div class="signpage">
     <div class="rectangle1">
-        <p class="txt1">FIND 3D OBJECTS, MOCKUPS AND ILLUSTRATIONS HERE</p>
-
-        <img [src]="'assets/images/Girlboy.jpg'" alt="Girlboy" class="Girlboy">
+        <div class="rectangle1-txt">
+            <p class="txt1">FIND 3D OBJECTS, MOCKUPS AND ILLUSTRATIONS HERE</p>
+        </div>
+        <div class="Girlboy">
+            <img [src]="'assets/images/Girlboy.png'" alt="Girlboy">
+        </div>
     </div>
 
 
-    <div class="rectangle2">
+        <div class="rectangle2">
+            <div class="rectangle6">
+                <div class="langue">
+                    <p class="txtEn">English(UK)</p>
+                    <img [src]="'assets/images/polygon.png'" alt="Polygon" class="Polygon">
+                </div>           
+                        <div class="rectangle2-title">
+                                    <h1 class="TitleCreate">Create Account</h1>
+                                </div>
+                                <div class="rectangleglob">
+                                    <button href="" class="rectangle3">
+                                            <img [src]="'assets/images/logos_gmail.png'" alt="logos_gmail" class="logos_gmail">
+                                            <p class="signGmail">Sign Up With Google</p>
+                                    </button>
+                                    <button class="rectangle4">
+                                            <img [src]="'assets/images/logos_facebook.png'" alt="logos_facebook">
+                                            <p class="signefb">Sign Up With Facebook</p>
+                                    </button>  
+                                </div>
+                                
+                                <div class="or">-OR-</div>
 
-            <p class="txtEn">English (UK)</p>
-            <img [src]="'assets/images/Polygon.jpg'" alt="Polygon" class="Polygon">
-                    <h1 class="TitleCreate">Create Account</h1>
+                                <input type="text" name="Full Name" placeholder="Full Name" class="input-name">
+                                <input type="text" name="Email Address" placeholder="Email Address" class="input-email">
+                                <input type="password" name="Password" placeholder="Password" class="input-psswrd">
 
-                    <div class="rectangle3">
-                        <img [src]="'assets/images/logos_gmail.jpg'" alt="logos_gmail">
-                        <p class="signGmail">Sign Up With Google</p>
-                    </div>
-                    <div class="rectangle4">
-                        <img [src]="'assets/images/logos_facebook.jpg'" alt="logos_facebook">
-                        <p class="signefb">Sign Up With Facebook</p>
-                    </div>  
-                    <p class="or">-OR-</p>
-                    <input type="text" name="Full Name" class="FullName">
-                    <input type="text" name="Email Address" class="EmailAddress">
-                    <input type="password" name="Password" class="Password">
+                                <button class="btnCreate">Create Account</button>
 
-                    <button class="BtnCreate">Create Account</button>
-
-                    <p class="txt2">Already have an account? Log In</p>
-    </div>
+                                <p class="txt2">Already have an account? <a href="#">Log In</a></p>     
+            </div>  
+        </div>
 </div>
