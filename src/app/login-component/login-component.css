@@ -52,8 +52,8 @@ body, html {
 .rectangle1-txt
 {
     position: absolute;
-    padding-left: 59px;
-    padding-top: 126px;
+    left: 59px;
+    top: 126px;
     width: 368px;
     height: 213px;
     opacity: 1;
@@ -146,8 +146,8 @@ body, html {
     position: absolute;
     display: flex;
     flex-direction: row;
-    /*left: 216.5px;*/
-    left: 640px;
+    left: 216.5px;
+    /*left: 640px;*/
     top: 296px;
     width: 208px;
     height: 45px;
@@ -165,8 +165,8 @@ body, html {
     position: absolute;
     display: flex;
     flex-direction: row;
-    /*left: 476.5px;*/
-    left: 891px;
+    left: 476.5px;
+    /*left: 891px;*/
     top: 296px;
     width: 208px;
     height: 45px;
@@ -215,8 +215,8 @@ body, html {
 .or
 {
     position: absolute;
-    /*left: 450px;*/
-    left: 853px;
+    left: 450px;
+    /*left: 853px;*/
     top: 371px;
     width: 33px;
     height: 17px;
@@ -237,8 +237,8 @@ input
     opacity: 1;
     border: none;
     border-bottom: 1px solid rgba(214, 202, 202, 0.59);
-    /*left: 218.5px;*/
-    left: 642px;
+    left: 218.5px;
+    /*left: 642px;*/
     position: absolute;
 }
 
@@ -273,8 +273,8 @@ input::placeholder
 button
 {
     position: absolute;
-    /*left: 354px;*/
-    left: 777.5px;
+    left: 354px;
+    /*left: 777.5px;*/
     top: 890.5px;
     width: 405px;
     height: 45px;
@@ -295,8 +295,8 @@ button
 .txt2
 {
     position: absolute;
-    /*left: 354.5px;*/
-    left: 778px;
+    left: 354.5px;
+    /*left: 778px;*/
     top: 946px;
 
     font-family:'Imprima', sans-serif;
@@ -326,7 +326,7 @@ button
     
     .rectangle2 {
         width: 100%;
-        /*height: 100%;*/
+        height: 100%;
         border-radius: 40px 40px 0 0;
         flex-direction: column;
         display: flex;
