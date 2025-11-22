@@ -78,7 +78,7 @@ body, html {
     top: 156px;
     width: 654px;
     height: 763px;
-    opacity: 1;
+    opacity: 0.5;
     /* rotation = 3.54 dégre*/
     transform: rotate(-3.54deg);
     /* ou cover 
