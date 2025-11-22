@@ -314,7 +314,7 @@ button
 }
 
 /* Media queries pour responsive */
-@media (max-width: 1100px) {
+@media (max-width: 1440PX) {
     .signpage {
         flex-direction: column;
     }
@@ -402,7 +402,7 @@ button
     }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 700px) {
     .signpage {
         flex-direction: column;
     }
