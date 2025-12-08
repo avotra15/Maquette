@@ -1,9 +1,9 @@
-/* Inter 
+/* Inter */
 @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* Imprima 
+/* Imprima */
 @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*/
+
 .signpage{
     background-color: rgba(84, 181, 181, 1);
     display: flex;
@@ -21,16 +21,14 @@
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    /*width: 427px; /* Ajoutez une largeur fixe  */
-    min-width: 427px;
+    width: 30%;
 }
 .rectangle2
 {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: calc(100% - 427px); /*Prend le reste de l'espace */
-    /*width: 50%;*/
+    width: 70%;
     height: 100%;
     background-color: #FFFFFF;
     border-radius: 70px 0 0 70px;
@@ -68,18 +66,14 @@
     width: 654px;
     height: 763px;
     opacity: 0.5;
-    /* rotation = 3.54 dégre*/
     transform: rotate(-3.54deg);
-    /* ou cover 
-    object-fit: screen;*/
     padding-top: 40px;
-    z-index: 2; /* Au-dessus des rectangles */
-    /*mix-blend-mode: multiply;*/
+    z-index: 2;
 }
 .txtEn
 {
     position: absolute;
-    /*left: 968.5px;*/
+    left: 968.5px;
     right: 30px;
     top: 31px;
     width: 82px;
@@ -98,13 +92,12 @@
 .Polygon
 {
     position: absolute;
-    /*left: 1065.5px;*/
+    left: 1065.5px;
     right: 5px;
     top: 31px;
     width: 15.97px;
     height: 12px;
     opacity: 1;
-    /* compte 3 */
 }
 .rectangle2-title
 {
@@ -135,8 +128,7 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    left: 216.5px;
-    /*left: 640px;*/
+    left: 640px;
     top: 296px;
     width: 208px;
     height: 45px;
@@ -147,15 +139,13 @@
     align-items: center;
     padding: 8px 15px;
     background-color: #FFFFFF;
-    /*margin-right: 44px;*/
 }
 .rectangle4
 {
     position: absolute;
     display: flex;
     flex-direction: row;
-    left: 476.5px;
-    /*left: 891px;*/
+    left: 891px;
     top: 296px;
     width: 208px;
     height: 45px;
@@ -204,8 +194,7 @@
 .or
 {
     position: absolute;
-    left: 450px;
-    /*left: 853px;*/
+    left: 853px;
     top: 371px;
     width: 33px;
     height: 17px;
@@ -226,8 +215,7 @@ input
     opacity: 1;
     border: none;
     border-bottom: 1px solid rgba(214, 202, 202, 0.59);
-    left: 218.5px;
-    /*left: 642px;*/
+    left: 642px;
     position: absolute;
 }
 
@@ -262,8 +250,7 @@ input::placeholder
 button
 {
     position: absolute;
-    left: 354px;
-    /*left: 777.5px;*/
+    left: 777.5px;
     top: 890.5px;
     width: 405px;
     height: 45px;
@@ -284,8 +271,7 @@ button
 .txt2
 {
     position: absolute;
-    left: 354.5px;
-    /*left: 778px;*/
+    left: 778px;
     top: 946px;
 
     font-family:'Imprima', sans-serif;
