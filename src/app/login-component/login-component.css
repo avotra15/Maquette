@@ -3,18 +3,7 @@
 
 /* Imprima 
 @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/* Reset pour body et html */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body, html {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
-
+*/
 .signpage{
     background-color: rgba(84, 181, 181, 1);
     display: flex;
