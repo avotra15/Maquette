@@ -1,396 +1,363 @@
-/* Inter */
-@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:wght@100..900&display=swap');
 
-/* Imprima */
-@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-.signpage{
+/* ============= LAYOUT PRINCIPAL DESKTOP 1366x768 ============= */
+.signpage {
     background-color: rgba(84, 181, 181, 1);
     display: flex;
-    flex-direction: row;
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
-
-.rectangle1
-{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
+/* ===== Colonne gauche ===== */
+.rectangle1 {
     width: 30%;
-}
-.rectangle2
-{
+    min-height: 100vh;
+    padding: 40px 20px;
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 100%;
-    background-color: #FFFFFF;
-    border-radius: 70px 0 0 70px;
-    flex: 1;
-    overflow: hidden;
+    align-items: center;
 }
 
-.rectangle1-txt
-{
-    position: absolute;
-    left: 59px;
-    top: 126px;
-    width: 368px;
-    height: 213px;
-    opacity: 1;
-}
-
-
-.txt1
-{
-    font-family: 'Imprima', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: auto;
-    letter-spacing: 0%;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.Girlboy
-{
-    position: absolute;
-    left: 48px;
-    top: 156px;
-    width: 654px;
-    height: 763px;
+.rectangle1-txt {
+    color: #ffffff;
     opacity: 0.5;
-    transform: rotate(-3.54deg);
-    padding-top: 40px;
-    z-index: 2;
-}
-.txtEn
-{
-    position: absolute;
-    left: 968.5px;
-    right: 30px;
-    top: 31px;
-    width: 82px;
-    height: 19px;
-    opacity: 1;
-
+    max-width: 330px;
     font-family: 'Imprima', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: auto;
-    letter-spacing: 0%;
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 1.4;
     text-align: left;
-    color: rgb(226, 221, 221, 100);
 }
 
-.Polygon
-{
+.Girlboy {
     position: absolute;
-    left: 1065.5px;
-    right: 5px;
-    top: 31px;
-    width: 15.97px;
-    height: 12px;
-    opacity: 1;
-}
-.rectangle2-title
-{
-    position: absolute;
-    left: 638px;
-    top: 178px;
-    width: 283px;
-    height: 28px;
-    opacity: 1;
-}
-.TitleCreate
-{    
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: auto;
-    letter-spacing: 0%;
-    color: #000000;
+    bottom: 0;
+    left: 60%;
+    transform: translateX(-20%);
 }
 
-.rectangleglob
-{
+.Girlboy img {
+    width: 520px;
+    height: auto;
+    display: block;
+}
+
+/* ===== Colonne droite ===== */
+.rectangle2 {
+    width: 70%;
+    background: white;
+    border-radius: 70px 0 0 70px;
+    padding: 70px 100px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.rectangle3
-{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    left: 640px;
-    top: 296px;
-    width: 208px;
-    height: 45px;
+.rectangle6 {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
 
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px rgb(211, 205, 205, 100);
-    justify-content: space-around;
+.langue {
+    display: flex;
     align-items: center;
-    padding: 8px 15px;
-    background-color: #FFFFFF;
-}
-.rectangle4
-{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    left: 891px;
-    top: 296px;
-    width: 208px;
-    height: 45px;
-
-    border-radius: 8px;
-    box-shadow: inset 0 0 0 1px rgb(211, 205, 205, 100);
-    justify-content: space-around;
-    align-items: center;
-    padding: 8px 15px;
-    background-color: #FFFFFF;
-}
-
-.logos_gmail
-{
-    width: 26px;
-    height: 23px;
-    overflow: hidden;
-}
-.logos_facebook
-{
-    width: 30px;
-    height: 27px;
-    overflow: hidden;
-}
-.signGmail
-{
-    font-family: 'Inter', sans-serif;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: auto;
-    letter-spacing: 0%;
-    color: rgba(197, 189, 189, 1);
-}
-
-.signefb
-{
-    font-family: 'Inter', sans-serif;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: auto;
-    letter-spacing: 0%;
-    color: rgba(197, 189, 189, 1);
-    padding-left: 15px;
-}
-
-.or
-{
-    position: absolute;
-    left: 853px;
-    top: 371px;
-    width: 33px;
-    height: 17px;
-    opacity: 1;
-
-    font-family:'Inter', sans-serif;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: auto;
-    letter-spacing: 0%;
-    color: rgba(197, 189, 189, 1);
-}
-input
-{
-    transform: rotate(0.01deg);
-    width: 644.23px;
-    height: 30.15px;
-    opacity: 1;
-    border: none;
-    border-bottom: 1px solid rgba(214, 202, 202, 0.59);
-    left: 642px;
-    position: absolute;
-}
-
-input::placeholder
-{
-    font-family:'Inter', sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: auto;
-    letter-spacing: 0%;
-    color: rgba(197, 189, 189, 1);
-}
-
-.input-name
-{
-    position: absolute;
-    top: 389.35px;
-}
-
-.input-email
-{
-    position: absolute;
-    top: 506.5px;
-}
-
-.input-psswrd
-{
-    position: absolute;
-    top: 646px;
-}
-
-button
-{
-    position: absolute;
-    left: 777.5px;
-    top: 890.5px;
-    width: 405px;
-    height: 45px;
-    opacity: 1;
-    background-color: rgba(136, 192, 192, 1);
-    border-radius: 7px;
-    border: none;
+    /*justify-content: flex-end;*/
+    gap: 8px;
+    margin-bottom: 20px;
+    padding-left: 610px;
     cursor: pointer;
-
-    font-family:'Inter', sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: auto;
-    letter-spacing: 0%;
-    color: rgba(248, 240, 240, 0.8);
 }
 
-.txt2
-{
-    position: absolute;
-    left: 778px;
-    top: 946px;
+.txtEn {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
 
-    font-family:'Imprima', sans-serif;
-    font-weight: normal;
+.Polygon {
+    width: 10px;
+    height: 6px;
+}
+
+.rectangle2-title h1 {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 30px 0;
+    color: #333;
+}
+
+/* ===== Boutons Google / Facebook ===== */
+.rectangleglob {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.rectangle3,
+.rectangle4 {
+    flex: 1;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    gap: 8px;
+}
+
+.rectangle3:hover,
+.rectangle4:hover {
+    background: #f9f9f9;
+    border-color: #999;
+}
+
+.logos_gmail,
+.rectangle4 img {
+    width: 20px;
+    height: 20px;
+}
+
+.signGmail,
+.signefb {
+    color: #666;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* ===== OR separator ===== */
+.or {
+    text-align: center;
+    color: rgba(197, 189, 189, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+/* ===== Button Create ===== */
+.btnCreate {
+    width: 100%;
+    height: 52px;
+    background: rgba(136, 192, 192, 1);
+    border: none;
+    border-radius: 7px;
+    color: white;
     font-size: 16px;
-    line-height: auto;
-    letter-spacing: 0em;
-    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    /*transition: background 0.2s ease;*/
 }
 
-.txt2 a
-{
+.btnCreate:hover {
+    background: #6fa8a8;
+}
+
+.btnCreate:active {
+    background: #5d9090;
+}
+
+/* ===== Login text ===== */
+.txt2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.txt2 a {
+    color: #4285F4;
     text-decoration: none;
-    color: rgb(66, 133, 244, 100);
+    font-weight: 600;
 }
 
-/* Media queries pour responsive */
-@media (min-width: 1025px) and (max-width: 1280px) {
+.txt2 a:hover {
+    text-decoration: underline;
+}
+
+/* ===================================================== */
+/* ====================   RESPONSIVE   ================= */
+/* ===================================================== */
+
+/* ====== Large tablets & small desktops (1024px – 1365px) ====== */
+@media (max-width: 1365px) {
+    .rectangle2 {
+        padding: 60px 80px;
+    }
+
+    .Girlboy img {
+        width: 500px;
+    }
+}
+
+/* ====== Tablets (768px – 1023px) ====== */
+@media (max-width: 1023px) {
     .signpage {
         flex-direction: column;
+        min-height: 100vh;
+        height: auto;
     }
-    
+
     .rectangle1 {
         width: 100%;
-        height: 25%;
+        min-height: 350px;
+        padding: 40px 30px;
+        justify-content: center;
     }
-    
-    .rectangle2 {
-        width: 100%;
-        height: 100%;
-        border-radius: 40px 40px 0 0;
-        flex-direction: column;
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
+
+    .rectangle1-txt {
         position: relative;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
     }
     
     .Girlboy {
-        max-width: 300px;
-        left: 35%;
+        position: absolute;
+        bottom: 0;
         transform: translateX(-50%);
-        object-fit: cover;
-        opacity: 0.5;
+        z-index: 1;
+    }
+  .Girlboy img {
+        width: 300px;
+        opacity: 0.3;
     }
 
-    .rectangle2-title
-    {
-        position: static;
-        padding-top: 89px;
-        padding-left: 250px;
-        font-size: 26px;
+    .rectangle2 {
         width: 100%;
+        border-radius: 40px 40px 0 0;
+        padding: 50px 40px;
+        min-height: auto;
+        z-index: 2;
     }
-        /* Les blocs Gmail/Facebook */
-    .rectangle3,
-    .rectangle4 {
-        position: static;
-        width: 90%;
-        margin: 50px 100px;
+
+    .rectangle6 {
+        max-width: 450px;
     }
-    
-    
-    .or {
-        position: static;
+
+    .rectangle2-title h1 {
+        font-size: 32px;
         text-align: center;
-        width: 100%;
-        top: 186px;
-    }
-
-    input {
-        position: static;                  
-        width: 90%;                        
-        margin: 15px auto;         
-        display: block;
-        font-size: 18px;
-    }
-
-    .input-name,
-    .input-email,
-    .input-psswrd {
-        position: static;         
-        margin-top: 20px;
-        width: 90%;
-    }
-
-    /* Bouton */
-    button {
-        position: static; 
-        width: 90%;
-        height: 45px;
-        margin: 25px auto;
-        display: block;
-    }
-
-    /* Texte sous le bouton */
-    .txt2 {
-        position: static;
-        width: 90%;
-        text-align: center;
-        margin-top: 10px;
-        font-size: 14px;
     }
 }
 
-@media (max-width: 640px) {
-    .signpage {
-        flex-direction: column;
-    }
-    
+/* ====== Mobile devices (481px – 767px) ====== */
+@media (max-width: 767px) {
     .rectangle1 {
-        width: 60%;
-        height: 3%;
+        min-height: 300px;
+        padding: 30px 20px;
     }
+
+    .rectangle1-txt {
+        font-size: 18px;
+        max-width: 280px;
+    }
+
+    .Girlboy img {
+        width: 240px;
+    }
+
     .rectangle2 {
+        padding: 40px 30px;
+    }
+
+    .rectangle6 {
+        max-width: 100%;
+    }
+
+    .rectangle2-title h1 {
+        font-size: 28px;
+    }
+
+    .rectangleglob {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .rectangle3,
+    .rectangle4 {
         width: 100%;
     }
-    .rectangle2-title {
-        width: 75%;
-        padding-top: 40px;
+
+    app-champ input,
+    input[type="text"],
+    input[type="password"] {
+        height: 48px;
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+
+    .btnCreate {
+        height: 48px;
+        font-size: 15px;
+    }
+
+    .txt2 {
+        font-size: 13px;
+    }
+}
+
+/* ====== Small mobile devices (≤ 480px) ====== */
+@media (max-width: 480px) {
+    .rectangle1 {
+        min-height: 280px;
+        padding: 25px 15px;
+    }
+
+    .rectangle1-txt {
+        font-size: 16px;
+        max-width: 240px;
+    }
+
+    .Girlboy img {
+        width: 200px;
+    }
+
+    .rectangle2 {
+        padding: 35px 20px;
+    }
+
+    .rectangle2-title h1 {
+        font-size: 24px;
+    }
+
+    .signGmail,
+    .signefb {
+        font-size: 12px;
+    }
+
+    .btnCreate {
+        height: 46px;
+    }
+}
+
+/* ====== Extra small devices (≤ 375px) ====== */
+@media (max-width: 375px) {
+    .rectangle1-txt {
+        font-size: 15px;
+    }
+
+    .Girlboy img {
+        width: 180px;
+    }
+
+    .rectangle2-title h1 {
+        font-size: 22px;
+    }
+
+    .rectangle2 {
+        padding: 30px 15px;
     }
 }

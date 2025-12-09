@@ -1,0 +1,27 @@
+/* ===== Inputs ===== */
+input {
+    width: 100%;
+    margin-top: 25px;
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+input::placeholder {
+    color: #c4c4c4;
+}
+
+input:focus {
+    outline: none;
+    border-color: #88C0C0;
+}
