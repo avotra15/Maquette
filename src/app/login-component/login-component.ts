@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Champ } from '../shared/champ/champ';
-import { ButtonComponent } from '../button-component/button-component';
+import { ButtonComponent } from '../shared/button-component/button-component';
 
 @Component({
   selector: 'app-login-component',
